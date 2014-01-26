@@ -33,13 +33,13 @@ This plugin is created by <a href="http://mekshq.com" target="_blank">MeksHQ</a>
 
 == Installation ==
 
-1. Upload meks-shortcodes-widget.zip to plugins via WordPress admin panel or upload unzipped folder to your wp-content/plugins/ folder
+1. Upload meks-flexible-shortcodes.zip to plugins via WordPress admin panel or upload unzipped folder to your wp-content/plugins/ folder
 2. Activate the plugin through the "Plugins" menu in WordPress
 3. While you are in edit post/page screen in admin, click on the shortcodes icon located inside visual editor to open shortcodes generator interface
 
 == Frequently Asked Questions ==
 
-- For any questions, error reports and suggestions please visit http://mekshq.com/contact
+For any questions, error reports and suggestions please visit http://mekshq.com/contact
 
 == Changelog ==
 
