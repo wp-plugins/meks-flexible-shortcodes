@@ -12,7 +12,7 @@ Add some cool elements to your post/page content with flexible shortcodes.
 
 == Description ==
 
-Meks Shortcodes is a plugin for those who want to add some nice elemnts inside their post/page content. You can quickly insert all of theme via user interface shortcodes generator panel. Several smart styling options are provided for each shortcode tag. It doesn't matter if your theme is yellow, white or green, these shortcodes can fit any style and design.
+Meks Shortcodes is a plugin for those who want to add some nice elements inside their post/page content. You can quickly insert all of them via user interface shortcodes generator panel. Several smart styling options are provided for each shortcode tag. It doesn't matter if your theme is yellow, white or green, these shortcodes can fit any style and design.
 
 ### Shortcodes list
 
