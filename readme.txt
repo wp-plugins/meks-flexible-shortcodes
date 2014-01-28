@@ -4,7 +4,7 @@ Donate link: http://mekshq.com/
 Tags: shortcode, shortcodes, tabs, toggles, accordions, social, buttons, dropcaps, icons
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -42,6 +42,9 @@ This plugin is created by <a href="http://mekshq.com" target="_blank">MeksHQ</a>
 For any questions, error reports and suggestions please visit http://mekshq.com/contact
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed shortcode button in visual editor
 
 = 1.0 =
 * Initial release

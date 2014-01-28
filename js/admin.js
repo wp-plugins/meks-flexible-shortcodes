@@ -5,7 +5,7 @@ var mks_shortcode_content;
         init : function(ed, url) {
             ed.addButton('mks_shortcodes_button', {
                 title : 'Meks Shortcodes',
-                image : '../wp-content/plugins/meks-shortcodes/img/shortcodes-button.png',
+                image : '../wp-content/plugins/meks-flexible-shortcodes/img/shortcodes-button.png',
                 onclick : function() {
                     
                     mks_shortcode = ed.selection;
