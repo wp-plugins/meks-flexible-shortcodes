@@ -58,7 +58,7 @@ if(!function_exists('mks_separator_sc')) :
 	function mks_separator_sc( $atts, $content = false, $tag ) {
 		extract( shortcode_atts(  array('height' => 2, 'style' => 'solid'), $atts ) );
 		if($style == 'blank'){
-			$inl_css = 'style="height: '.absint($height).'px;';
+			$inl_css = 'style="height: '.absint($height).'px;"';
 		} else {
 			$inl_css = 'style="border-bottom: '.absint($height).'px '.$style.';"';
 		}
