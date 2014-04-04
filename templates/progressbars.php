@@ -2,20 +2,20 @@
 	<table class="form-table">
 		<tbody>
 			<tr>
-		 		<th><h3><?php _e('Options',THEME_SLUG); ?></h3></th><td>&nbsp;</td>
+		 		<th><h3><?php _e('Options','mks-shortcodes'); ?></h3></th><td>&nbsp;</td>
 			</tr>
 		 <tr>
-		 	<th><?php _e('Name label',THEME_SLUG); ?>:</th>
-		 	<td><input type="text" name="name" value="<?php _e('WordPress',THEME_SLUG); ?>" class="widefat"/></td>
+		 	<th><?php _e('Name label','mks-shortcodes'); ?>:</th>
+		 	<td><input type="text" name="name" value="<?php _e('WordPress','mks-shortcodes'); ?>" class="widefat"/></td>
 		 </tr>
 	   <tr>
 				<th>
-					<?php _e('Level label',THEME_SLUG); ?>:
+					<?php _e('Level label','mks-shortcodes'); ?>:
 				</th>
-				<td><input type="text" name="level" value="<?php _e('Pro',THEME_SLUG); ?>" class="widefat"/></td>
+				<td><input type="text" name="level" value="<?php _e('Pro','mks-shortcodes'); ?>" class="widefat"/></td>
 		</tr>
 		<tr>
-		 	<th><?php _e('Value',THEME_SLUG); ?>:</th>
+		 	<th><?php _e('Value','mks-shortcodes'); ?>:</th>
 		 	<td>
 		 		<select name="value">
 		 		<?php for($i = 5; $i<= 100; $i+=5): ?>
@@ -25,11 +25,11 @@
 		 	</td>
 		</tr>
 		<tr>
-		 		<th><h3><?php _e('Style',THEME_SLUG); ?></h3></th><td>&nbsp;</td>
+		 		<th><h3><?php _e('Style','mks-shortcodes'); ?></h3></th><td>&nbsp;</td>
 		</tr>
 		<tr>
 				<th>
-					<?php _e('Height (thickness)',THEME_SLUG); ?>:
+					<?php _e('Height (thickness)','mks-shortcodes'); ?>:
 				</th>
 				<td><input type="text" name="height" value="20" class="small-text"/> px</td>
 		</tr>
@@ -49,7 +49,7 @@
 		</tr>
 		
 		<tr>
-				<th><input type="submit" class="button-primary" value="<?php _e('Insert Progress Bar',THEME_SLUG); ?>"></th> 
+				<th><input type="submit" class="button-primary" value="<?php _e('Insert Progress Bar','mks-shortcodes'); ?>"></th> 
 				<td>&nbsp;</td>
 		</tr>
 	
