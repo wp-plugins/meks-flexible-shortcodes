@@ -1,8 +1,7 @@
-#TB_ajaxContent { width: 100%!important; overflow: hidden; }
 #mks_wrap{
 	position: relative;
-	margin: 0 15px 30px -15px;
-	height: 97.5%;
+	margin: 0 -15px 0 -15px;
+	height: 95%;
 }
 #mks_tabs{
 	font-family: Helvetica, Arial;
@@ -12,7 +11,6 @@
 }
 #mks_tabs{
 	width: 120px;
-	height: 100%;
 	min-height: 100%;
 	background: #f9f9f9;
 	border-right: 1px solid #EEE;
@@ -33,7 +31,7 @@
 	margin: 0px;
 }
 #mks_tabs  li.current a{
-	background: #FFF;
+	background: #f1f1f1;
 	box-shadow: 0 -1px 0 #eee;
 }
 #content_mks_shortcodes_button.mce_mks_shortcodes_button{
@@ -52,11 +50,10 @@
 }
 #mks_tabs_sections{
 	overflow: auto;
-	height: 100%;
 	position: relative;
 	padding: 0 0 0 20px;
 	margin: 0;
-	background: #FFF;
+	min-height: 100%;
 }
 .wp_themeSkin  span.mceIcon.mce_mks_shortcodes_button{
 	width: 65px;

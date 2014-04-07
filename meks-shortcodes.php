@@ -217,7 +217,7 @@ function mks_shortcodes_load_scripts(){
 
 /* Load text domain */
 function mks_load_shortcodes_text_domain() {
-  load_plugin_textdomain( 'mks-shortcodes', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+  load_plugin_textdomain( 'meks', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 
 add_action( 'plugins_loaded', 'mks_load_shortcodes_text_domain' );
