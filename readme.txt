@@ -3,8 +3,8 @@ Contributors: mekshq
 Donate link: http://mekshq.com/
 Tags: shortcode, shortcodes, tabs, toggles, accordions, social, buttons, dropcaps, icons
 Requires at least: 3.5
-Tested up to: 3.8.1
-Stable tag: 1.1
+Tested up to: 3.9
+Stable tag: 1.1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -123,6 +123,9 @@ For any questions, error reports and suggestions please visit http://mekshq.com/
 2. Shortcodes in action - example
 
 == Changelog ==
+
+= 1.1 =
+* Fixed shortcodes UI button look in WP 3.9
 
 = 1.1 =
 * Added translation files (en_US)
