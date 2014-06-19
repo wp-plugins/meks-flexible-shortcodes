@@ -4,7 +4,7 @@ Plugin Name: Meks Flexible Shortcodes
 Plugin URI: http://mekshq.com
 Description: Add some cool elements to your post/page content. Smart styling options will make it fit into any theme design. Columns, buttons, higlights, social icons, tabs, toggles, accordions, pull quotes, progress bars, separators, dropcaps...
 Author: MeksHQ
-Version: 1.1.1
+Version: 1.2.0
 Author URI: http://mekshq.com
 */
 
@@ -28,7 +28,7 @@ Author URI: http://mekshq.com
 
 define ('MKS_SC_PLUGIN_URL', trailingslashit(plugin_dir_url(__FILE__)));
 define ('MKS_SC_PLUGIN_DIR', trailingslashit(plugin_dir_path(__FILE__)));
-define ('MKS_SC_PLUGIN_VER', '1.1.1');
+define ('MKS_SC_PLUGIN_VER', '1.2.0');
 
 add_action('init', 'mks_register_shortcodes' );
 
@@ -193,6 +193,11 @@ function mks_shortcodes_load_admin_scripts(){
 	
 	wp_register_style('mks_shortcodes_fntawsm_css', MKS_SC_PLUGIN_URL.'css/font-awesome/css/font-awesome.min.css', false, MKS_SC_PLUGIN_VER, 'screen');
 	wp_enqueue_style('mks_shortcodes_fntawsm_css');
+
+	
+	wp_register_style('mks_shortcodes_simple_line_icons', MKS_SC_PLUGIN_URL.'css/simple-line/simple-line-icons.css', false, MKS_SC_PLUGIN_VER, 'screen');
+	wp_enqueue_style('mks_shortcodes_simple_line_icons');
+	
 	
 	wp_register_style('mks_shortcodes_admin_css', MKS_SC_PLUGIN_URL.'css/admin.css', false, MKS_SC_PLUGIN_VER, 'screen');
 	wp_enqueue_style('mks_shortcodes_admin_css');
@@ -206,6 +211,11 @@ function mks_shortcodes_load_scripts(){
 	
 	wp_register_style('mks_shortcodes_fntawsm_css', MKS_SC_PLUGIN_URL.'css/font-awesome/css/font-awesome.min.css', false, MKS_SC_PLUGIN_VER, 'screen');
 	wp_enqueue_style('mks_shortcodes_fntawsm_css');
+
+	
+	wp_register_style('mks_shortcodes_simple_line_icons', MKS_SC_PLUGIN_URL.'css/simple-line/simple-line-icons.css', false, MKS_SC_PLUGIN_VER, 'screen');
+	wp_enqueue_style('mks_shortcodes_simple_line_icons');
+
 	
 	wp_register_style('mks_shortcodes_css', MKS_SC_PLUGIN_URL.'css/style.css', false, MKS_SC_PLUGIN_VER, 'screen');
 	wp_enqueue_style('mks_shortcodes_css');

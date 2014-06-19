@@ -11,9 +11,10 @@ endif;
 /* Button shortcode */
 if(!function_exists('mks_button_sc')) :
 	function mks_button_sc( $atts, $content = false, $tag ) {
-	extract( shortcode_atts(  array('size' => 'large', 'style' => 'rounded', 'title' => '', 'url' => '#', 'target' => '_self', 'icon' => '', 'bg_color' => '#000000', 'txt_color' => '#ffffff'), $atts ) );
+	extract( shortcode_atts(  array('size' => 'large', 'style' => 'rounded', 'title' => '', 'url' => '#', 'target' => '_self', 'icon' => '', 'bg_color' => '#000000', 'txt_color' => '#ffffff', 'icon_type' => 'fa'), $atts ) );
 	$inl_style = 'style="color: '.$txt_color.'; background-color: '.$bg_color.'"';
-	$icon = $icon ? '<i class="fa '.$icon.'"></i>' : '';
+	$icon_type = ($icon_type == 'fa') ? 'fa ' : '';
+	$icon = $icon ? '<i class="'.$icon_type.$icon.'"></i>' : '';
 	$output = '<a class="mks_button mks_button_'.$size.' '.$style.'" href="'.$url.'" target="'.$target.'" '.$inl_style.'>' . $icon . $title . '</a>';
 		return $output;
 	}
@@ -89,8 +90,9 @@ endif;
 /* Icon Shortcode */
 if(!function_exists('mks_icon_sc')) :
 	function mks_icon_sc( $atts, $content = false, $tag ) {
-		extract( shortcode_atts(  array('icon' => '', 'color' => '#000000'), $atts ) );
-		$output = '<i class="fa '.$icon.'" style="color: '.$color.'"></i>';
+		extract( shortcode_atts(  array('icon' => '', 'icon_type' => 'fa', 'color' => '#000000'), $atts ) );
+		$class = ($icon_type == 'fa') ? $icon_type.' ' : '';
+		$output = '<i class="'.$class.$icon.'" style="color: '.$color.'"></i>';
 		return $output;
 	}
 endif;

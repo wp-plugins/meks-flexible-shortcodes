@@ -35,8 +35,9 @@
     			e.preventDefault();
     			tb_remove();
     			var icon = $(this).find('input[name="icon"]').val();
+    			var icon_type = $(this).find('input[name="icon_type"]').val();
     			var color = $(this).find('input[name="color"]').val();
-    			var content = '[mks_icon icon="'+icon+'" color="'+color+'"]';
+    			var content = '[mks_icon icon="'+icon+'" color="'+color+'" type="'+icon_type+'"]';
     			mks_shortcode.setContent(content);
 			});
 			
@@ -55,7 +56,8 @@
     			e.preventDefault();
     			var holder = $(this).closest('.mks_icon_pick_hold');
     			holder.find('.mks_icon_data_preview').html($(this).html());
-    			holder.find('.mks_icon_data').val($(this).attr("data-icon"));
+    			holder.find('.mks_icon_data').val($(this).attr("mks-data-icon"));
+    			holder.find('.mks_icon_type').val($(this).attr("mks-icon-type"));
     			holder.find('.mks_icon_list').toggle();
 			});
 			

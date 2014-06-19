@@ -81,9 +81,10 @@
     			var url = $(this).find('input[name="url"]').val();
     			var target = $(this).find('input[name="target"]:checked').val();
     			var icon = $(this).find('input[name="icon"]').val();
+    			var icon_type = $(this).find('input[name="icon_type"]').val();
     			var bg_color = $(this).find('input[name="bg_color"]').val();
     			var txt_color = $(this).find('input[name="txt_color"]').val();
-    			var content = '[mks_button size="'+size+'" title="'+title+'" style="'+style+'" url="'+url+'" target="'+target+'" bg_color="'+bg_color+'" txt_color="'+txt_color+'" icon="'+icon+'"]';
+    			var content = '[mks_button size="'+size+'" title="'+title+'" style="'+style+'" url="'+url+'" target="'+target+'" bg_color="'+bg_color+'" txt_color="'+txt_color+'" icon="'+icon+'" icon_type="'+icon_type+'"]';
     			mks_shortcode.setContent(content);
 			});
 			
@@ -106,7 +107,8 @@
     			e.preventDefault();
     			var holder = $(this).closest('.mks_icon_pick_hold');
     			holder.find('.mks_icon_data_preview').html($(this).html());
-    			holder.find('.mks_icon_data').val($(this).attr("data-icon"));
+    			holder.find('.mks_icon_data').val($(this).attr("mks-data-icon"));
+    			holder.find('.mks_icon_type').val($(this).attr("mks-icon-type"));
     			holder.find('.mks_icon_list').toggle();
 			});
 			
