@@ -4,7 +4,7 @@ Donate link: http://mekshq.com/
 Tags: shortcode, shortcodes, tabs, toggles, accordions, social, buttons, dropcaps, icons
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -123,6 +123,9 @@ For any questions, error reports and suggestions please visit http://mekshq.com/
 2. Shortcodes in action - example
 
 == Changelog ==
+
+= 1.2.1 =
+* Minor CSS improvements for some shortcode elements
 
 = 1.2.0 =
 * Added another set of icons (Simple Line Icons)
