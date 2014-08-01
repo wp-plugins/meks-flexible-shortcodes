@@ -688,14 +688,18 @@ function mks_generate_social_icons_picker(){
 		'reddit' => 'ReddIT',
 		'rss' => 'Rss',
 		'skype' => 'Skype',
+    'spotify' => 'Spotify',
 		'stumbleupon' => 'StumbleUpon',
 		'tumblr' => 'Tumblr',
 		'twitter' => 'Twitter',
 		'vimeo' => 'Vimeo',
+    'vine' => 'Vine',
 		'wordpress' => 'WordPress' ,
+    'xing' => 'Xing' ,
 		'yahoo' => 'Yahoo',
 		'youtube' => 'Youtube',
-		'zerply' => 'Zerply'
+		'zerply' => 'Zerply',
+    'fh_px' => '500px'
 	);
 	
 	 echo '<div class="mks_social_pick_hold">';
