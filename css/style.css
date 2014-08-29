@@ -612,3 +612,13 @@ a.mks_button{
 	border-left: 1px solid;
 	min-height: 200px;
 }
+
+@media only screen and (max-width: 479px) {
+.mks_col .mks_one_half, .mks_col .mks_one_third, .mks_col .mks_one_quarter, .mks_col .mks_two_thirds{
+width: 100%;
+margin-left: 0;
+margin-bottom: 1em;
+}
+.mks_pullquote{width: 100% !important;}
+.mks_tab_nav_item{padding: 0 10px;}
+}
