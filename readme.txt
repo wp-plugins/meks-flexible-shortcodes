@@ -29,6 +29,12 @@ Meks Shortcodes is a plugin for those who want to add some nice elements inside 
 * Toggles
 * Accordions
 
+This plugin is created by <a href="http://mekshq.com" target="_blank">MeksHQ</a>
+
+### Live preview?
+
+You can see Meks Flexible Shortcodes live examples on our <a href="http://mekshq.com/demo/throne" target="_blank">Throne theme demo website</a>
+
 ### Usage examples and description
 
 **Columns** - You can use this shortcode to split your content into columns and point out some important parts of your page content. They can be used in conjunction with any other shortcodes. You can write any content or insert any shortcode between column tags.
@@ -105,7 +111,6 @@ Example content 3
 [/mks_accordion_item]
 [/mks_accordion]
 
-This plugin is created by <a href="http://mekshq.com" target="_blank">MeksHQ</a>
 
 == Installation ==
 
