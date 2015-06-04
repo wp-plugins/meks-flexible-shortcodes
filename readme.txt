@@ -4,7 +4,7 @@ Donate link: http://mekshq.com/
 Tags: shortcode, shortcodes, tabs, toggles, accordions, social, buttons, dropcaps, icons
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -128,6 +128,8 @@ For any questions, error reports and suggestions please visit http://mekshq.com/
 2. Shortcodes in action - example
 
 == Changelog ==
+= 1.2.7 =
+* Added new social icons : Sina Weibo, Tencent Weibo, Me2Day, Twitch, Soundcloud, iTunes and vKontakte
 
 = 1.2.6 =
 * Improved: Slide up to accordion title if active accordion content is not entirely visible
